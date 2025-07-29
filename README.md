@@ -31,6 +31,9 @@ plt.show()
 
 ## 2. Cuales son las habilidades mas demandadas para los analistas de datos?
 
+Mira mi notebook con los pasos detallados aqui:
+[SkillsTrend.ipynb](/SkillsTrend.ipynb)
+
 ### Visualizar Datos
 
 ``` python
