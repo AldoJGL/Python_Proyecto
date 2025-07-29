@@ -10,7 +10,7 @@ Mira mi notebook con los pasos detallados aqui:
 
 ### Visualizar Datos
 
-´´´ python
+``` python
 fig, ax = plt.subplots(len(job_titles), 1)
 
 for i, job_title in enumerate(job_titles):
@@ -18,7 +18,7 @@ for i, job_title in enumerate(job_titles):
   sns.barplot(data=df_plot, x='skill_percent', y='job_skills', ax=ax[i], hue='skill_count',palette='dark:b_r')
 
 plt.show()
-´´´
+```
 
 ### Resultados
 
