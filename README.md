@@ -23,4 +23,8 @@ plt.show()
 ### Resultados
 ![Visualizacion de las habilidades mas populares para datos](imagenes/skill_demand_all_data_roles.png)
 
+### Hallazgos clave
+ - Python es una habilidad versátil y altamente demandada en los tres roles, pero destaca especialmente para Científicos de Datos (72%) e Ingenieros de Datos (65%).
+ - SQL es la competencia más solicitada para Analistas de Datos y Científicos de Datos, apareciendo en más de la mitad de las ofertas laborales para ambos roles. Para Ingenieros de Datos, Python es la habilidad más requerida (presente en el 68% de las ofertas)
+ - A los ingenieros de datos se les exige competencias técnicas más especializadas (AWS, Azure, Spark), a diferencia de Analistas y Científicos de Datos, quienes necesitan dominar herramientas más generales de gestión y análisis de datos (Excel, Tableau).
 
