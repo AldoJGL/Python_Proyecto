@@ -28,3 +28,30 @@ plt.show()
  - SQL es la competencia más solicitada para Analistas de Datos y Científicos de Datos, apareciendo en más de la mitad de las ofertas laborales para ambos roles. Para Ingenieros de Datos, Python es la habilidad más requerida (presente en el 68% de las ofertas)
  - A los ingenieros de datos se les exige competencias técnicas más especializadas (AWS, Azure, Spark), a diferencia de Analistas y Científicos de Datos, quienes necesitan dominar herramientas más generales de gestión y análisis de datos (Excel, Tableau).
 
+
+## Cuales son las habilidades mas demandadas para los analistas de datos?
+
+### Visualizar Datos
+
+``` python
+
+from matplotlib.ticker import PercentFormatter
+ax = plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+for i in range(5):
+  plt.text(11.2, df_plot.iloc[-1, i], df_plot.columns[i])
+
+plt.show()
+
+```
+
+### Resultados
+
+![Top Habilidades para Analistas de Datos en E.E.U.U](/imagenes/skill_trend_DA.png)
+*Grafica en la que se visualiza las habilidades mas buscadas para analistas de datos en Estados Unidos*
+
+### Hallazgos clave
+- SQL sigue siendo la habilidad mas demandada a lo largo de los años, aun asi muestra un decrecimiento gradual.
+- La experiencia en Excel esta en un significante crecimiento, pasando por encima de Python y de Tableau al final del año.
+- Para Python y Tableau se muestra una demanda relativamente estable a lo largo del año con algunas flucutaciones.
