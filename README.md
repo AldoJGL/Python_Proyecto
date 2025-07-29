@@ -21,4 +21,6 @@ plt.show()
 ```
 
 ### Resultados
+![Visualizacion de las habilidades mas populares para datos](imagenes/skill_demand_all_data_roles.png)
+
 
