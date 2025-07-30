@@ -31,6 +31,8 @@ plt.show()
 
 ## 2. Cuales son las habilidades mas demandadas para los analistas de datos?
 
+Para identificar cuales habilidades son las mas demandadas para analistas de datos, filtre las posiciones y agrupe las habilidades por mes en que se oferto el empleo. Esto me dio el top 5 de habilidades para analistas de datos por mes, mostrando que tan populares son esas hablidades
+
 Mira mi notebook con los pasos detallados aqui:
 [SkillsTrend.ipynb](/SkillsTrend.ipynb)
 
@@ -60,6 +62,10 @@ plt.show()
 - Para Python y Tableau se muestra una demanda relativamente estable a lo largo del año con algunas flucutaciones.
 
 ## 3. Cual es el pago segun las habilidades para los analistas de datos?
+
+Para identificar los roles y habilidades mejor pagadas, solo obtuve los trabajos en Estados Unidos y consulte por la media de los salarios. Pero primero busque la distribucion de los salarios en trabajos parecidos como Cientifico de datos, Ingeniero de datos y Analista de datos, para tener una idea de cuales eran los trabajos mejores pagados.
+
+Puedes ver mi notebook con los pasos detallados aqui: [SalaryAnaysis.ipynb](/SalaryAnalysis.ipynb)
 
 ### Analisis de salario para roles en datos
 
