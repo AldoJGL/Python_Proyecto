@@ -1,5 +1,18 @@
 # Python_Proyecto
 
+## Preguntas
+A continuacion, las preguntas que quiero responder en mi proyecto:
+1. ¿Cuáles son las habilidades más demandadas para los 3 roles de datos más populares?
+2. Cuales son las habilidades mas demandadas para los analistas de datos?
+3. Cual es el pago segun las habilidades para los analistas de datos?
+
+## Herramientas que use
+- Python.
+- Libreria Pandas: Para analizar los datos.
+- Libreria Matplotlib: Para visualizar los datos.
+- Libreria Seaborn: Me ayudo a crear graficas mas avanzadas.
+- Jupyter Notebooks: Esta herramienta la use para correr mis scripts de Python de forma mas facil.
+
 # Analisis
 ## 1. ¿Cuáles son las habilidades más demandadas para los 3 roles de datos más populares?
 
