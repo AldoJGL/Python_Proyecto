@@ -58,3 +58,25 @@ plt.show()
 - SQL sigue siendo la habilidad mas demandada a lo largo de los años, aun asi muestra un decrecimiento gradual.
 - La experiencia en Excel esta en un significante crecimiento, pasando por encima de Python y de Tableau al final del año.
 - Para Python y Tableau se muestra una demanda relativamente estable a lo largo del año con algunas flucutaciones.
+
+## 3. Cual es el pago segun las habilidades para los analistas de datos?
+
+### Analisis de salario para roles en datos
+
+### Visualizar datos
+
+``` python
+sns.boxplot(data=df_US_top6, x='salary_year_avg',y='job_title_short', order=job_order)
+
+ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
+plt.gca().xaxis.set_major_formatter(ticks_x)
+plt.show()
+```
+
+### Resultados
+![Distribucion de salario en roles de datos en Estados Unidos](/imagenes/salary_analysis.png)
+*Grafica de la distribucion del salario para el top 6 de trabajos en datos.*
+### Hallazgos Clave
+
+- Hay una variacion significante en el rango de los salarios de los diferentese trabajos. Las posiciones de Cientifico de datos Senior tienden por tener los salarios mas altos, con mas de $600K, indicando un alto valor por las avanzadas habilidades y experiencia en la industria.
+- Ingeniero de datos Senior y Cientifico de datos Senior muestran un número considerable de valores atípicos en el extremo superior del espectro salarial, lo que sugiere que habilidades excepcionales o circunstancias particulares pueden llevar a remuneraciones altas en estos roles. En contraste, los roles de Analista de Datos presentan una mayor consistencia en los salarios, con menos valores atípicos.
